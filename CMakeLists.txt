@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 project("fastrtps_serial")
 
-# srcerate Codes
-execute_process(
-	COMMAND ./src.sh
-	WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
-)
-
 # Find requirements
 set(fastcdr_DIR "$ENV{FASTRTPSHOME}/build/install/lib/fastcdr/cmake")
 set(fastrtps_DIR "$ENV{FASTRTPSHOME}/build/install/lib/fastrtps/cmake")
