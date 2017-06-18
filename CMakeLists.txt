@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
-project("fastrtps_test")
+project("fastrtps_serial")
 
 # srcerate Codes
 execute_process(
