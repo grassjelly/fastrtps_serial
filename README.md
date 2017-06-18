@@ -17,3 +17,7 @@
     $ ./build/app subscriber
     ```
 5. Check if the data is received. The subscriber must receive "Hello from uC".
+
+### Reference
+
+Serial Library from: https://github.com/wjwwood/serial
