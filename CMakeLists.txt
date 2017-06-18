@@ -29,7 +29,6 @@ file(GLOB SERIAL_SOURCE lib/serial/*.cc)
 include_directories(
   include
 	lib/serial
-	${PROJECT_SOURCE_DIR}/lib
 )
 
 #Add the serial library
