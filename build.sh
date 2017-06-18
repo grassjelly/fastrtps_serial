@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 
-cd src
-rm -r *.cxx
-rm -r *.h
+rm -r src/*.cxx
+rm -r include/*.h
 
+cd src
 fastrtpsgen -example x64Linux2.6gcc ../idl/*.idl
 rm make*
 
 cd ..
-mkdir include
 mv src/*.h include
 
 rm -rf build
